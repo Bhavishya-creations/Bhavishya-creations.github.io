@@ -306,3 +306,12 @@ body{
 .item a{
     padding-top: 10px;
 }
+#my-email{
+	background-color:#fff;
+	color:#000;
+}
+
+#my-email hover{
+	background-color:#000;
+	color:#fff;
+}
