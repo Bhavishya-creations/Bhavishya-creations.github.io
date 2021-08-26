@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:72dcff833b3f83a5aedadda4e8d894db36a68fe6ae4371edea45f5650a7910cc
-size 590
+
+(function($)
+{
+	"use strict";
+	
+	
+	jQuery(window).on('load', function() {
+		preloader();
+		
+		
+		if(jQuery('.gallery-outer .gallery-items').length > 0){
+			jQuery('.gallery-outer .gallery-items').filterizr();
+		}
+		jQuery('#filter-list li').on("click", function(){
+			jQuery('#filter-list li').removeClass('active');
+			jQuery(this).addClass('active');
+		});
+	});
+	
+	
+	
+	
+	function preloader(){
+		jQuery(".preloaderimg").fadeOut();
+		jQuery(".preloader").delay(200).fadeOut("slow").delay(200, function(){
+			jQuery(this).remove();
+		});
+	}
+	
+	
+	
+})(jQuery);	
