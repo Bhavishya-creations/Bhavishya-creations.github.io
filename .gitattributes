@@ -15,3 +15,4 @@ C:/Users/user/Documents/GitHub/Bhavishya-creations.github.io/videos filter=lfs d
 *.iso filter=lfs diff=lfs merge=lfs -text
 C:/Users/user/Documents/GitHub/Bhavishya-creations.github.io/js_1 filter=lfs diff=lfs merge=lfs -text
 C:/Users/user/Documents/GitHub/Bhavishya-creations.github.io/Month7[[:space:]]/c/Users/user/Documents/GitHub/Bhavishya-creations.github.io/Month8[[:space:]]/c/Users/user/Documents/GitHub/Bhavishya-creations.github.io/Month2 filter=lfs diff=lfs merge=lfs -text
+C:/Users/user/Documents/GitHub/Bhavishya-creations.github.io/Month1[[:space:]]/c/Users/user/Documents/GitHub/Bhavishya-creations.github.io/Month9[[:space:]]/c/Users/user/Documents/GitHub/Bhavishya-creations.github.io/js_1 filter=lfs diff=lfs merge=lfs -text
